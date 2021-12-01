@@ -1,10 +1,8 @@
 # PySpark Notebook
 
-This repository builds on top of Jupyter's [PySpark Notebook](https://github.com/jupyter/docker-stacks/tree/master/pyspark-notebook) Docker image, adding tools to make it even more pratical to use Spark on a local machine without the need to actually download and set it up.
+This repository builds on top of Jupyter's [PySpark Notebook](https://github.com/jupyter/docker-stacks/tree/master/pyspark-notebook) Docker image, adding tools to make the use of Spark even more pratical for both new and experient users.
 
-This image is aimed for those people tha want a local and interactive environment to develop a PySpark application, before submitting it to production.
-
-The image also sets up all the configuration needed to connect to Amazon S3 file service, and thus the user can also work with on-cloud data. That being said, the user must set the AWS-related variables in a .env file to access this functionality.
+This image is aimed for local and interactive development of PySpark applications, but it also suits those who need to work with data on the cloud, as it sets up all the configuration needed to connect to Amazon S3 file service. That being said, the user must set the AWS-related variables in a .env file to access this functionality.
 
 ## Dependecies
 
@@ -15,9 +13,7 @@ Although previous versions were not tested, it is posible that they work.
 
 ## Quick Start
 
-All you have to do is to properly set up environment variables and the python packages your project depends on, through the `.env` and `requirements.txt` files, respectively.
-
-The project contains templates of these files that you should edit before trying to start the Docker container.
+All you have to do is to properly set up environment variables and the python packages your project depends on, through the `.env` and `requirements.txt` files, respectively. The project contains templates of these files that you should edit before trying to start the Docker container.
 
 After that, just run the following command in the folder that contains the files:
 
