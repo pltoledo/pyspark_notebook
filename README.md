@@ -19,7 +19,7 @@ All you have to do is to properly set up environment variables and the python pa
 
 The project contains templates of these files that you should edit before trying to start the Docker container.
 
-After that, just run thw following command in the folder that contains the files:
+After that, just run the following command in the folder that contains the files:
 
 ```
 docker compose up -d
